@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Menu Bar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-4">Menu de Opciones</h1>
+    <div class="list-group mt-4">
+        <a th:href="@{/cajas}" class="list-group-item list-group-item-action"> Cajas de Herramientas</a>
+        <a th:href="@{/clientes}" class="list-group-item list-group-item-action"> Clientes</a>
+        <a th:href="@{/empleados}" class="list-group-item list-group-item-action"> Empleados</a>
+        <a th:href="@{/oficinas}" class="list-group-item list-group-item-action"> Oficinas</a>
+        <a th:href="@{/oficinaCajas}" class="list-group-item list-group-item-action"> Relación Oficina-Cajas de Herramientas</a>
+        <a th:href="@{/registros}" class="list-group-item list-group-item-action"> Registros de Entradas y Salidas</a>
+        <a th:href="@{/reservas}" class="list-group-item list-group-item-action"> Reservas</a>
+    </div>
+</div>
+</body>
+</html>
